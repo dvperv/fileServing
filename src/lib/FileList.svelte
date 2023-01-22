@@ -1,7 +1,6 @@
 <script>
     import {ListGroup} from "sveltestrap";
     import FileListItem from "./FileListItem.svelte";
-    import {each} from "svelte/internal";
     let files = [
         { id: 1, url: "http://localhost:8085/more_static/1" },
         { id: 2, url: "http://localhost:8085/more_static/2" },
