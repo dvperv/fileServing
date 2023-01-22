@@ -1,8 +1,8 @@
 <script>
     import {ListGroupItem} from "sveltestrap";
+    export let name =" ", url = ""
 </script>
 
 <ListGroupItem>
-    11
-    <a href="http://localhost:8085/more_static/1" download>Загрузить</a>
+    <a href={url} download>Загрузить {name}</a>
 </ListGroupItem>
